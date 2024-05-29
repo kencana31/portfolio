@@ -1,0 +1,54 @@
+body {
+	padding-top: 56px;
+}
+
+.hero-section {
+	height: 100vh;
+	background: url("assets/img/hero-bg.jpg") no-repeat center center/cover;
+}
+
+section {
+	padding: 60px 0;
+}
+
+.card-img-top {
+	height: 200px;
+	object-fit: cover;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.hero-img {
+	margin-bottom: 0%;
+	text-align: center;
+	justify-content: center;
+	border: none;
+}
+
+/* Animations */
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.slide {
+	animation: slide 1s forwards;
+}
+
+.slideanim {
+	visibility: hidden;
+}
+
+.slide {
+	visibility: visible;
+}
